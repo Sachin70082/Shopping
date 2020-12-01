@@ -1,0 +1,113 @@
+.bg-img{
+	width: 100%;
+	height: 600px;
+	overflow-y: hidden;
+	
+}
+.bg-img img{
+	margin-top: -260px;
+	width: 100%;
+	height: auto;
+
+}
+.bg-img #blk-fg{
+	background: #000;
+	width: 100%;
+	height:600px;
+	position: absolute;
+	opacity: .5;
+}
+.blnk{
+	width: 100%;
+	height: 400px;
+	background: #fff; 
+}
+
+.try-slider{
+	width: 100%;
+	height: 300px;
+}
+
+.upper-links{
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0px 100px;
+}
+.upper-links a{
+	padding: 10px 10px;
+	display: inline-block;
+	color: #1a1a1a;
+	text-decoration: none;
+	font-size: 15px;
+}
+@keyframes rightFedIn{
+	0%{position: absolute; left: -80px; opacity: 0;}
+	
+	
+	
+	100%{position: absolute; left: 0px; opacity: 1;}
+
+}
+.slider-text{
+	width: 700px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	margin : 200px 100px;
+	text-align: center;
+	animation-name: rightFedIn;
+	animation-duration: 4s;
+	z-index: 1;
+}
+.slider-text .box-1{
+	width: 100%;
+	height: 50%;
+}
+.slider-text .box-1 #up-box1{
+	width: 100%;
+	height: 40%;
+	text-align: center;
+}
+.slider-text .box-1 #up-box1 h1{
+	color:  #FF4220;
+	font-size: 60px;
+}
+.slider-text .box-1 #up-box2{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.slider-text .box-1 #up-box2 h1{
+	color: white;
+	font-size: 40px;
+	margin-top: 10px;
+}
+.slider-text .box-2{
+	width: 100%;
+	height: 50%;
+	}
+.slider-text .box-2 h2{
+	color: white;
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-top: -5px;
+
+}
+.carouselbox{
+	position: absolute;
+	border:4px solid blue;
+width: 100%;
+height: 300px;
+}
+#carouselExampleIndicators{
+	width: 100%;
+height: 400px;
+overflow-y: hidden;
+
+}
+.carousel-item img{
+	width: 100%;
+}
